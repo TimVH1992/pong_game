@@ -30,7 +30,7 @@ let showingWinScreen = false;
 c.font = "40px Georgia";
 c.fillText('Klik om te beginnen', (canvas.width/2) - 250, canvas.height/2);
 
-window.onclick = function() {
+canvas.onclick = function() {
     const framesPerSecond = 30;
     setInterval(function() {
         moveEverything();
